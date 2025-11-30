@@ -137,6 +137,22 @@ const Navbar = () => {
                                 Profile
                             </NavLink>
                         </li>
+                        <li>
+                            <NavLink
+                                to="/role"
+                                className="block min-w-40 p-2 rounded-md hover:bg-secondary   transition-colors"
+                            >
+                                Role
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to="/subject"
+                                className="block min-w-40 p-2 rounded-md hover:bg-secondary   transition-colors"
+                            >
+                                Subject
+                            </NavLink>
+                        </li>
                     </ul>
                 </li>
                 <li className="group/item relative font-medium text-base text-primary-content">

@@ -16,6 +16,8 @@ import ErrorPage from "../Shared/ErrorPage/ErrorPage";
 import Course from "../Pages/Academic/Course";
 import Table from "../componentes/Table";
 import Card from "../componentes/Card";
+import RoleLists from "../Pages/RoleAccess/RoleList";
+import Subject from "../Pages/Subject/Subject";
 // import CheckAdmin from "../Security/CheckAdmin";
 
 export const router = createBrowserRouter([
@@ -47,6 +49,14 @@ export const router = createBrowserRouter([
             {
                 path: "profile",
                 Component: Profile,
+            },
+            {
+                path: "role",
+                Component: RoleLists,
+            },
+            {
+                path: "subject",
+                Component: Subject,
             },
         ]
     },
